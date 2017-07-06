@@ -1,0 +1,187 @@
+REM ChromeBook Keyboard Key Sequence. Rubber Ducky Chromebook Enrollment script. Tested up to Chrome 54.
+
+REM Part One: Wifi Setup
+
+DELAY 1000
+
+ALT-SHIFT S
+
+DELAY 1000
+
+TAB
+
+TAB
+
+TAB
+
+ENTER
+
+DELAY 1000
+
+SHIFT TAB
+
+SHIFT TAB
+
+SHIFT TAB
+
+ENTER
+
+REM selects advanced
+
+TAB
+
+TAB
+
+TAB
+
+ENTER
+
+DELAY 500
+
+STRING YOURSSID
+
+DELAY 500
+
+TAB here it selects EAP method in my case PEAP
+
+DELAY 500
+
+DOWN
+
+DELAY 500
+
+DOWN
+
+DELAY 500
+
+TAB
+
+DELAY 500
+
+TAB certificate option which i set to do not check
+
+DELAY 500
+
+DOWN
+
+DELAY 500
+
+TAB
+
+STRING username
+
+TAB
+
+DELAY 500
+
+STRING password
+
+TAB
+
+DELAY 500
+
+TAB
+
+DELAY 500
+
+TAB
+
+DELAY 500
+
+SPACE selecting save identity and password
+
+DELAY 500
+
+TAB
+
+DELAY 500
+
+ENTER
+
+REM Long Pause while Connection is established.
+
+DELAY 10000
+
+REM Part One and One half: Go through First run Setup.
+
+TAB
+
+TAB
+
+TAB
+
+ENTER
+
+DELAY 500
+
+ENTER
+
+REM Part Two: Enrollment (Long Pauses in case its having issues with wifi or render)
+
+DELAY 5000
+
+CTRL-ALT e for enterprise enrollment
+
+DELAY 3000
+
+STRING enroll.account(a)domain.com
+
+ENTER
+
+DELAY 3000
+
+STRING password
+
+ENTER
+
+DELAY 10000
+
+ENTER
+
+REM Initial login
+
+DELAY 2000
+
+STRING username
+
+ENTER
+
+DELAY 500
+
+STRING password
+
+ENTER
+
+REM Check for updates
+
+DELAY 10000
+
+ALT-SHIFT s
+
+DELAY 500
+
+SHIFT TAB
+
+SHIFT TAB
+
+SHIFT TAB
+
+SHIFT TAB
+
+SHIFT TAB
+
+ENTER
+
+DELAY 1000
+
+SHIFT TAB
+
+ENTER
+
+DELAY 1000
+
+TAB
+
+TAB
+
+ENTER
