@@ -42,7 +42,9 @@ STRING YOURSSID
 
 DELAY 500
 
-TAB here it selects EAP method in my case PEAP
+REM here it selects EAP method in my case PEAP
+
+TAB
 
 DELAY 500
 
@@ -58,7 +60,9 @@ TAB
 
 DELAY 500
 
-TAB certificate option which i set to do not check
+REM certificate option which i set to do not check
+
+TAB
 
 DELAY 500
 
@@ -88,7 +92,9 @@ TAB
 
 DELAY 500
 
-SPACE selecting save identity and password
+REM selecting save identity and password
+
+SPACE 
 
 DELAY 500
 
@@ -120,7 +126,9 @@ REM Part Two: Enrollment (Long Pauses in case its having issues with wifi or ren
 
 DELAY 5000
 
-CTRL-ALT e for enterprise enrollment
+REM for enterprise enrollment
+
+CTRL-ALT e
 
 DELAY 3000
 
