@@ -9,6 +9,6 @@ restorecon -R ${ocpath}/config
 semanage fcontext -a -t ${httpdrw} "${ocpath}/apps(/.*)?"
 restorecon -R ${ocpath}/apps
 semanage fcontext -a -t ${httpdrw} "/data(/.*)?"
-restorecon -R ${ocpath}/data
+restorecon -R /data
 semanage fcontext -a -t ${httpdrw} "${ocpath}/updater(/.*)?"
 restorecon -R ${ocpath}/updater
